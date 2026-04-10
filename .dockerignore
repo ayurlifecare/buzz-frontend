@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.git
+.gitignore
+*.md
+.env
+.env.local
+.env.*.local
+ftp.js
+create-htaccess.js

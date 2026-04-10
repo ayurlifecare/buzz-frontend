@@ -1,0 +1,50 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+/dist
+
+# Env files — NEVER commit real env
+.env
+.env.local
+.env.*.local
+
+# Keep example
+!.env.example
+
+# Debug
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+
+# IDE
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PWA
+/public/sw.js
+/public/workbox-*.js
+/public/worker-*.js
+/public/fallback-*.js
+/public/sw.js.map
+/public/workbox-*.js.map
+
+# Build artifacts
+tsconfig.tsbuildinfo
+/public/sitemap*.xml
+/public/robots.txt
+
+# Junk
+ftp.js
+create-htaccess.js

@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build:netlify"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_SSR = "false"
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

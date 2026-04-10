@@ -1,0 +1,15 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build:vercel",
+  "installCommand": "npm install",
+  "regions": ["sin1"],
+  "env": {
+    "NEXT_PUBLIC_SSR": "true"
+  },
+  "headers": [
+    {
+      "source": "/_next/static/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}
