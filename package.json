@@ -91,3 +91,8 @@
   },
   "description": "Buzz Mart - Customer Web App"
 }
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
